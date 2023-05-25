@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: #000;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    margin-top: 10px;
+    color: yellow;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    text-decoration: none;
+    color: rgb(225, 115, 0);
+    font-size: 70px;
+    font-weight: 400;
+    animation: rainbow 3s infinite ease-in-out;
+}
+
+@keyframes rainbow{
+    100%,0% {
+        color: rgb(255, 0, 0);
+    }
+    15% {
+        color: rgb(255, 208, 0);
+    }
+    30% {
+        color: rgb(166, 255, 0);
+    }
+    42% {
+        color: rgb(0, 255, 136);
+    }
+    55% {
+        color: rgb(0, 123, 255);
+    }
+    73% {
+        color: rgb(119, 0, 255);
+    }
+    90% {
+        color: rgb(255, 0, 2558, 0, 107);
+    }
+
+}
