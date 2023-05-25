@@ -96,7 +96,6 @@ $(document).ready(function() {
     
     $(".inp-sub").click(function () {
         if (answer[rand-1].indexOf($(".inp-text").val().toLowerCase()) != -1) {
-            answer[rand-1].indexOf($(".inp-text").val().toLowerCase()) = "0"
             let old_rand = rand;
             progres++
             $("#progress").val(progres).trigger('change')
