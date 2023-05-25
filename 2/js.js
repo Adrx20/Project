@@ -28,7 +28,7 @@ let time;
 if (timeStorage.getItem("timer") != null) {
     time = parseInt(timeStorage.getItem("timer"));
 } else {
-    time = 15;
+    time = 250;
     timeStorage.setItem("timer", time)
 }
 
