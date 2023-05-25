@@ -91,6 +91,7 @@ $(document).ready(function() {
         $(".sound").show();
         $(".inp-text").show();
         $(".inp-sub").show();
+        console.log(rand)
     })
     
     $(".inp-sub").click(function () {
