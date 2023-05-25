@@ -110,7 +110,7 @@ $(document).ready(function() {
             if(old_rand == rand) {
                 $("#melody").hide()
             }
-            if (progres == 5) {
+            if (progres == 12) {
                 $(".next").show()
                 $("#melody").hide()
                 $(".inp-text").hide()
