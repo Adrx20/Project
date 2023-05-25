@@ -91,11 +91,11 @@ $(document).ready(function() {
         $(".sound").show();
         $(".inp-text").show();
         $(".inp-sub").show();
-        console.log(rand)
     })
     
     $(".inp-sub").click(function () {
         if (answer[rand-1].indexOf($(".inp-text").val().toLowerCase()) != -1) {
+            console.log(rand)
             let old_rand = rand;
             progres++
             $("#progress").val(progres).trigger('change')
@@ -117,7 +117,7 @@ $(document).ready(function() {
                 $(".inp-sub").hide()
             }
         }
-        $(".inp-text").val("").toLowerCase("")
+        $(".inp-text").val("")
     })
 })
 
