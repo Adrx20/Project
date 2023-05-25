@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-block {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    background: url(body/1674281371_catherineasquithgallery-com-p-fon-saita-serii-foto-6.png) no-repeat center;
+    height: 900px;
+}
+
+h1, .h1 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: auto;
+}
+
+p {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.block-1 {
+    background: rgb(173, 231, 125);
+    width: 550px;
+    margin: 0 auto;
+    padding: 5px 7px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.info {
+    width: 544px;
+    height: 120px;
+    margin: 0 auto;
+    background: rgb(119, 162, 84);
+    padding: 5px 10px;
+    position: absolute;
+    left: 678px;
+    z-index: 1;
+}
+
+.rebus {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0px 30px;
+}
+
+.inp-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.inp-text {
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    background: rgba(0, 255, 21, 0.305);
+    border: 2px solid rgb(1, 78, 14);
+    border-radius: 50px;
+    outline: 0;
+}
+
+.inp-sub {
+    width: 50px;
+    height: 35px;
+    margin: 1px 0px 0px 10px;
+    background: rgba(0, 255, 21, 0.39);
+    border: 2px solid rgb(1, 78, 14);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.next {
+    background: rgba(199, 199, 199, 0.54);
+    border: 2px solid white;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 1700px;
+    top: 500px;
+    text-align: center;
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+/* .skip {
+    width: 48px;
+    height: 32px;
+    margin: 1px 0px 0px 10px;
+    background: rgba(199, 199, 199, 0.54);
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+} */
+
+.sp {
+    position: absolute;
+    left: 12px;
+    top: -12px;
+}
+
+.prog {
+    position: absolute;
+    left: 150px;
+    top: 692px;
+}
+
+#time {
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+.start {
+    position: absolute;
+    left: 890px;
+    top: 360px;
+    padding: 15px 40px;
+    background: rgb(173, 231, 125);
+    border: 0px;
+    border-radius: 50px;
+}
+
+.sound {
+    position: absolute;
+    left: 760px;
+    top: 360px;
+}
+
+.start:hover {
+    box-shadow: 0px 0px 20px rgb(32, 119, 26);
+}
+
+.game-board {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    margin-top: 140px;
+}
+
+.game-board > div {
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transform-style: preserve-3d;
+}
+
+#win {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#win a {
+    padding: 1rem 2rem;
+    font-size: 40px;
+    background: white;
+    color: black;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+/* .card {
+    background-color: #fff;
+    transform: rotateY(0deg);
+} */
+
+.back img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.front {
+    background-color: #22577A;
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.back {
+    background-color: #22577A;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-weight: bold;
+}
